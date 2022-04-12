@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-url = "https://raw.githubusercontent.com/imberlianti/Tugas/main/Data%20Scientist/train.csv"
+url = "https://raw.githubusercontent.com/imkzuma/Data-Scientist/main/titanic/train.csv"
 
 data = pd.read_csv(url)
 
