@@ -3,7 +3,7 @@
 import pandas as pd 
 import matplotlib.pyplot as plt
 
-url = "mymoviedb.csv"
+url = "https://raw.githubusercontent.com/imkzuma/Data-Scientist/main/mymovie-db/mymoviedb.csv"
 data = pd.read_csv(url , lineterminator = "\n")
 
 Name = []
