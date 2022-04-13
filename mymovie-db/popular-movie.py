@@ -19,8 +19,6 @@ def ShowGraph(Name , Popular):
 data = data.sort_values(["Popularity"] , ascending = False)
 data = data.filter(items = ["Title" , "Popularity"])
 
-print(data.head(5))
-
 Name = []
 Popular = []
 
